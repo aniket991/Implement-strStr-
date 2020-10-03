@@ -1,0 +1,7 @@
+class Solution {
+    public int strStr(String h, String n) {
+        if(n.length()==0)return 0;
+        if(h.contains(n))return h.indexOf(n);
+        return -1;
+    }
+}
