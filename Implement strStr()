@@ -1,3 +1,4 @@
+//LeetCode Implement strStr() Question.
 class Solution {
     public int strStr(String h, String n) {
         if(n.length()==0)return 0;
